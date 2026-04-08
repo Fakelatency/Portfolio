@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Briefcase, GraduationCap, Code2, MonitorPlay, Droplets, Mic, Compass, Medal } from "lucide-react";
+import { Mail, MapPin, Briefcase, GraduationCap, Code2, MonitorPlay, Droplets, Mic, Compass, Medal, BrainCircuit } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const fadeIn = {
@@ -284,6 +284,10 @@ export default function Portfolio() {
               </h2>
               <motion.div variants={fadeIn} className="space-y-4 text-gray-400">
                 <p className="text-sm flex gap-3 items-start">
+                  <BrainCircuit className="shrink-0 text-blue-400 mt-0.5" size={18} />
+                  <span><strong>AI & Prompt Engineering</strong><br />Na bieżąco śledzę i aktywnie wykorzystuję w programowaniu sztuczną inteligencję. Posiadam bogate doświadczenie we współpracy z agentami AI (LLM), optymalizując swój workflow przez płynne dostosowywanie modelu i technik promptowania pod zróżnicowane zadania inżynieryjne.</span>
+                </p>
+                <p className="text-sm flex gap-3 items-start mt-4">
                   <Mic className="shrink-0 text-blue-400 mt-0.5" size={18} />
                   <span><strong>Realizacja dźwięku estradowego</strong><br />Odporność na stres, praca na live-eventach i błyskawiczne rozwiązywanie problemów (troubleshooting w czasie rzeczywistym).</span>
                 </p>
