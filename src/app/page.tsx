@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Briefcase, GraduationCap, Code2, MonitorPlay, Droplets, Mic, Compass } from "lucide-react";
+import { Mail, MapPin, Briefcase, GraduationCap, Code2, MonitorPlay, Droplets, Mic, Compass, Medal } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const fadeIn = {
@@ -291,9 +291,13 @@ export default function Portfolio() {
                   <Droplets className="shrink-0 text-blue-400 mt-0.5" size={18} />
                   <span><strong>Instruktor pływania</strong><br />Rozwinięte zdolności interpersonalne, szkoleniowe (mentoring) oraz konsekwencja w samodoskonaleniu. Wysoce rozwinięta cierpliwość, zrozumienie i opanowanie, które wykorzystuję na basenie przekłada się na łatwość w nawiązywaniu kontaktów biznesowych</span>
                 </p>
-                <p className="text-sm flex gap-3 items-start">
+                <p className="text-sm flex gap-3 items-start mt-4">
                   <Compass className="shrink-0 text-blue-400 mt-0.5" size={18} />
                   <span><strong>Nurek techniczny</strong><br />Sport obarczony wysokim ryzykiem, wymagający opanowania, precyzji i umiejętności podejmowania decyzji pod presją jak i dokładnego przygotowania przed każdym zanurzeniem.</span>
+                </p>
+                <p className="text-sm flex gap-3 items-start mt-4">
+                  <Medal className="shrink-0 text-blue-400 mt-0.5" size={18} />
+                  <span><strong>Były wyczynowy zawodnik</strong><br />10 lat profesjonalnego treningu (10-12 jednostek tygodniowo), finalista Mistrzostw Polski i dawny członek kadry młodzików. Nauczyło mnie to żelaznej dyscypliny, sumienności i wybitnej etyki pracy.</span>
                 </p>
               </motion.div>
             </motion.section>
